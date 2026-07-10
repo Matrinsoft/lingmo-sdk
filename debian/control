@@ -1,0 +1,35 @@
+Source: lingmo-sdk
+Section: devel
+Priority: optional
+Maintainer: Lingmo OS Team <team@lingmo.org>
+Build-Depends:
+    cmake (>= 3.20),
+    debhelper-compat (= 13),
+    extra-cmake-modules,
+    pkg-config,
+    qt6-base-dev (>= 6.5),
+    qt6-declarative-dev,
+    qt6-tools-dev,
+    qt6-tools-dev-tools,
+    libkf6config-dev,
+    libkf6windowystem-dev,
+    libkf6coreaddons-dev,
+    libkf6guiaddons-dev,
+    libkf6iconthemes-dev,
+Standards-Version: 4.6.2
+Homepage: https://github.com/lingmo-os/lingmo-sdk
+Rules-Requires-Root: no
+
+Package: lingmo-sdk-dev
+Architecture: any
+Depends:
+    ${misc:Depends},
+    ${shlibs:Depends},
+    ${pkgconfig:Depends},
+Description: Lingmo Desktop SDK - development files
+ Lingmo SDK is the developer toolkit for building Lingmo Desktop
+ applications. It provides CMake packages, C++ libraries, and QML
+ modules for theme management, UI controls, animation, and system
+ integration.
+ .
+ This package contains the development files.
