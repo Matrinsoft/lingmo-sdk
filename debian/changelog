@@ -1,10 +1,5 @@
-lingmo-sdk (1.0.0) trixie; urgency=medium
+﻿lingmo-sdk (1.0.0) trixie; urgency=medium
 
-  * Initial release of Lingmo SDK.
-  * Includes: lingmo-base, lingmo-appearance, lingmo-quick, lingmo-widgets,
-    lingmo-motion, lingmo-ipc, lingmo-config, lingmo-plugin, lingmo-utils,
-    lingmo-icon-engine, lingmo-platform, lingmo-desktop-services,
-    lingmo-shell-surfaces, lingmo-network, lingmo-display, lingmo-portals,
-    lingmo-flatpak, lingmo-thumbnails, lingmo-apps-common.
+  * Initial release of lingmo-sdk.
 
- -- Lingmo OS Team <team@lingmo.org>  Fri, 10 Jul 2026 20:00:00 +0000
+ -- Lingmo OS Team <team@lingmo.org>  Fri, 10 Jul 2026 +0000

@@ -1,4 +1,4 @@
-Source: lingmo-sdk
+﻿Source: lingmo-sdk
 Section: devel
 Priority: optional
 Maintainer: Lingmo OS Team <team@lingmo.org>
@@ -17,7 +17,7 @@ Build-Depends:
     libkf6guiaddons-dev,
     libkf6iconthemes-dev,
 Standards-Version: 4.6.2
-Homepage: https://github.com/lingmo-os/lingmo-sdk
+Homepage: https://github.com/Matrinsoft/lingmo-sdk
 Rules-Requires-Root: no
 
 Package: lingmo-sdk-dev
